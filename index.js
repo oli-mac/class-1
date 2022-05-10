@@ -31,6 +31,9 @@ app.get('/',(req,res)=>{
     res.send('hello bd');
 })//first parameter is always the url
 
+app.get('/courses',(req,res)=>{
+    res.send('hello bd courses');
+})//first parameter is always the url
 //post end points
 app.listen(3000, ()=>{
     console.log("server connected");
